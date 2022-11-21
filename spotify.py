@@ -71,12 +71,13 @@ def menor(spotify):
            
 while True:
     print("1-ingresar artista")
-    print("2-ingresar infromacion de la cancion")
+    print("2-ingresar informacion de la cancion")
     print("3-eliminar artista")
     print("4-buscar cancion")
     print("5-buscar artista")
     print("6-Cancion mas larga")
     print("7-cancion mas corta")
+    print("8-todas las canciones")
     ctrl=int(input("ingrese la opcion que desee: ")) #tipo strin
 
     match ctrl:
